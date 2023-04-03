@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div>Modified by Elaine</div>
+    <div>Modified by Sorina</div>
   )
 }
 
