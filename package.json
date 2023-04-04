@@ -1,0 +1,23 @@
+{
+  "name": "rescue-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LiaGrozav/RescueMe.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LiaGrozav/RescueMe/issues"
+  },
+  "homepage": "https://github.com/LiaGrozav/RescueMe#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
