@@ -5,6 +5,7 @@ import {Link} from "react-router-dom";
 function NavbarComp() {
   return (
 
+
       <Navbar bg='dark' variant='dark' expand='lg'>
         <Container>
           <Navbar.Brand href='/'>
@@ -22,6 +23,7 @@ function NavbarComp() {
               <Nav.Link as={Link} to={"/about"}>
                 About
               </Nav.Link>
+
 
               <NavDropdown
                 title='Adopt/Get involved'
