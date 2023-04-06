@@ -1,9 +1,13 @@
 import React from "react";
 import { Container, Row, Col, Nav } from "react-bootstrap";
+import { BsInstagram, BsFacebook, BsFillShareFill } from "react-icons/bs";
+
+
+
 
 const Footer = () => {
   return (
-    <Container fluid className="bg-dark mt-5">
+    <Container fluid className="bg-dark mt-5 footer">
       <Row>
         <Col xs={12} md={6} className="text-center">
           <Nav className="justify-content-center justify-content-md-start">
@@ -21,13 +25,19 @@ const Footer = () => {
         <Col xs={12} md={6} className="text-center">
           <Nav className="justify-content-center justify-content-md-end">
             <Nav.Item>
-              <Nav.Link href="#">Social1</Nav.Link>
+              <Nav.Link href="#">
+                <BsInstagram size={30} />
+              </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="#">Social2</Nav.Link>
+              <Nav.Link href="#">
+                <BsFacebook size={30} />
+              </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link href="#">Social3</Nav.Link>
+              <Nav.Link href="#">
+                <BsFillShareFill size={30} />
+              </Nav.Link>
             </Nav.Item>
           </Nav>
         </Col>

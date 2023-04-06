@@ -2,6 +2,7 @@ import Footer from "./components/Footer";
 import NavbarComp from "./components/NavbarComp";
 import "./styles/App.scss";
 
+
 function App() {
   return <div className="App">
     <NavbarComp/>
