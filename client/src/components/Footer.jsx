@@ -1,7 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Nav } from "react-bootstrap";
-import { BsInstagram, BsFacebook, BsFillShareFill } from "react-icons/bs";
 
+import { Link } from "react-router-dom";
+
+import { BsInstagram, BsFacebook, BsFillShareFill } from "react-icons/bs";
 
 
 
@@ -12,7 +14,7 @@ const Footer = () => {
         <Col xs={12} md={6} className="text-center">
           <Nav className="justify-content-center justify-content-md-start">
             <Nav.Item>
-              <Nav.Link href="#">Contact us</Nav.Link>
+              <Nav.Link  as={Link} to={"/contact"}>Contact us</Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link href="#">Imprint</Nav.Link>
