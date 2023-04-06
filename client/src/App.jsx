@@ -11,11 +11,17 @@ import Foster from "./Pages/Foster";
 import Donate from "./Pages/Donate";
 import Footer from "./components/Footer";
 import NavbarComp from "./components/NavbarComp";
+import Contact from "./Pages/Contact";
 import "./styles/App.scss";
+import MeetThemBtn from "./components/MeetThemContainer";
 
 
 
 function App() {
+
+
+
+
   return (
     <div className='App'>
       <NavbarComp />
@@ -23,18 +29,18 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/about' element={<About />} />
         {/* <Route path='/userprofile' element={<UserProfile />} /> */}
-        <Route path='/adoptionprocess' element={<AdoptionProcess />} />
         <Route path="/shelter" element={<ShelterSearch />} />
         {/* <Route path='/petprofile' element={<PetProfile />} /> */}
         <Route path='/adoptionprocess' element={<AdoptionProcess />} />
-        {/* <Route path='/petsearch' element={<PetSearch />} /> */}
+        <Route path='/petsearch' element={<PetSearch />} />
         <Route path='/sheltersearch' element={<ShelterSearch />} />
         <Route path='/foster' element={<Foster />} />
         <Route path='/donate' element={<Donate />} />
-        
+        <Route path='/contact' element={<Contact />} />
         <Route path='/*' element={<NotFound />} />
       </Routes>
       <h1>RescueUs</h1>
+   
       <Footer />
     </div>
   );
