@@ -3,8 +3,8 @@ import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 
 function NavbarComp() {
   return (
-    <Navbar bg="dark" variant="dark" expand="lg">
-      <Container>
+    <Navbar bg="dark" variant="dark">
+      <Container className="navbar">
         <Navbar.Brand href="/">
           <img
             src="/logo.svg"
@@ -21,7 +21,7 @@ function NavbarComp() {
 
             <NavDropdown
               title="Adopt/Get involved"
-              id="collasible-nav-dropdown"
+              id="collapsible-nav-dropdown"
             >
               <NavDropdown.Item href="#action/3.1">
                 Adopting Rules/Process
