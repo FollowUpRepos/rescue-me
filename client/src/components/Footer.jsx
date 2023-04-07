@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 import { BsInstagram, BsFacebook, BsFillShareFill } from "react-icons/bs";
 
-
+// James wrote this //
 
 const Footer = () => {
   return (
